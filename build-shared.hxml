@@ -1,0 +1,12 @@
+-cp src
+
+--debug
+--dce full
+
+-D message.reporting=pretty
+-D analyzer-optimize
+-D js-es=6
+
+-lib blok.bridge
+-lib blok.foundation
+-lib breeze

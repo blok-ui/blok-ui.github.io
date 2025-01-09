@@ -1,0 +1,9 @@
+build-shared.hxml
+
+-lib hxnodejs
+
+-D breeze.output=cwd:dist/assets/styles.css
+
+-main Run
+-js bin/build.js
+-cmd node bin/build
