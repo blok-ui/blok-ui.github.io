@@ -14,8 +14,12 @@ class MainLayout extends Component {
 				Sizing.width('max', '900px'),
 				Spacing.margin('auto')
 			)}>
-				// Site header here
-				children
+				<main className={Breeze.compose(
+					Spacing.margin('y', 10)
+				)}>
+					// Site header here
+					children
+				</main>
 			</body>
 		</html>);
 	}

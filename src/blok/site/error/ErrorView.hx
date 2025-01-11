@@ -11,7 +11,6 @@ class ErrorView extends Component {
 		var title = Std.string(code);
 		return Html.view(<MainLayout title=title>
 			<div>
-				<p>'okl'</p>
 				<h1>title</h1>
 				<p>children</p>
 			</div>
