@@ -3,6 +3,7 @@
 		"lix": "^15.12.4"
 	},
 	"scripts": {
-		"postinstall": "lix download"
+		"postinstall": "lix download",
+		"build": "haxe build-server.hxml"
 	}
 }
