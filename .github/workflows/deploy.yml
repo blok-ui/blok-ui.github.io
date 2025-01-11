@@ -24,9 +24,9 @@ jobs:
     steps:
       - name: Setup Node
         uses: actions/setup-node@v4
-        with:
-          cache: 'npm'
-          cache-dependency-path: './package-lock.json'
+        # with:
+        #   cache: 'npm'
+        #   cache-dependency-path: './package-lock.json'
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
